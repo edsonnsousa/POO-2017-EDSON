@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LeiturApp</string>
+    <string name="lendo">Lendo</string>
+    <string name="lido">Lido</string>
+    <string name="lerei">Lerei</string>
+
+    <string-array name="spinner">
+        <item>Lendo</item>
+        <item>Lido</item>
+        <item>Lerei</item>
+
+    </string-array>
+</resources>
+
