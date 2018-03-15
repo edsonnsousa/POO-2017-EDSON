@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ListaTarefas"
+    android:background="#66CDAA">
+
+    <TextView
+        android:text="Titulo: "
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/editTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Detalhes:"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/editDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Estado:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton android:id="@+id/aFazer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fazendo"
+            android:checked="true"/>
+        <RadioButton android:id="@+id/fazendo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feita"
+            android:layout_marginStart="10dp"/>
+        <RadioButton android:id="@+id/feita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A fazer"
+            android:layout_marginStart="10dp"/>
+
+        <RadioButton android:id="@+id/cancelada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancelada"
+            android:layout_marginStart="10dp"/>
+
+
+
+    </RadioGroup>
+    <TextView
+        android:text="Data Limite:"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/editData"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="salvar"
+        android:background="#66CD"
+        android:text="Salvar"/>
+
+</LinearLayout>
