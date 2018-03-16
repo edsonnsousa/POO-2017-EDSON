@@ -1,0 +1,7 @@
+15.6
+3) Usa-se o sort, Não se tem paremetro par ordenar.
+
+4) Collections.Reverse(contas);
+   Collections.rotate(contas,1);
+   Collections.shuffle(contas);
+   
