@@ -1,0 +1,12 @@
+12.2)
+Imprime até o 8, quando ocorre o primeiro erro, o for é encerrado, e o erro é capturado pelo catch.
+Já no segundo caso, como o try está dentro do for, quando o programa apresentar o erro, mesmo dentro do for, ele será capturado, assim, dando sequencia ao for, e mostrando todos os casos de erro.
+Ele não termina o metodo1.
+
+
+12.11)
+2- erro "illegal argument exception"
+
+3-  erro "illegal argument exception" e em seguida a mensagem que foi digitada.
+
+7- O compilador obriga a exceção ser tratada.
